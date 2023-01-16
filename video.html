@@ -1,0 +1,18 @@
+<html>
+<head>
+  <title>Mon lecteur vidéo</title>
+  <!--link rel="stylesheet" href = "video.css"-->
+</head>
+<body>
+  <video id="my-image" src="./video/Cyprien.mp4" muted  autoplay width="100%" type="video/mp4"></video>
+</body>
+</html>
+<script>
+var imgElement = document.getElementById("my-image");
+
+    // Définition des dimensions de l'image en 4/3
+    imgElement.style.width = "400px";
+    imgElement.style.height = "300px";
+    imgElement.style.width = window.innerWidth + "px";
+    imgElement.style.height = window.innerHeight + "px";
+</script>
